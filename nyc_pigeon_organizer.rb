@@ -7,11 +7,10 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
           binding.pry
         if !name_hash[name]
-          name_hash[name] = 
+          name_hash[name] = {}
         end
       end
     end
   end
-  name_hash
 end
 
