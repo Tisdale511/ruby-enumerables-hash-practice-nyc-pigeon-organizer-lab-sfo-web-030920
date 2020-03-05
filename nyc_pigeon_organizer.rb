@@ -6,4 +6,5 @@ def nyc_pigeon_organizer(data)
         name_hash[colors] = names
     end
   end
+  name_hash
 end
