@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     color.each do |colors, names|
       names.each do |name, pigeon|
           binding.pry
-        if !name_hash[names]
+        if !name_hash[name]
           name_hash[name] = pigeon
         end
       end
