@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
     color.each do |colors, names|
       if !name_hash[colors]
         name_hash[colors] = names
+      end
     end
   end
   name_hash
