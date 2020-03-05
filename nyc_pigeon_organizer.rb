@@ -12,7 +12,8 @@ def nyc_pigeon_organizer(data)
         if !name_hash[name][data]
           name_hash[name][data] = []
         end
-        if !name_hash[name][data].include?()
+        if !name_hash[name][data].include?(colors)
+          name_hash[name][data] << colors
       end
     end
   end
